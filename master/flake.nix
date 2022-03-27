@@ -11,6 +11,7 @@
   inputs.src-mofuw-master.ref   = "refs/heads/master";
   inputs.src-mofuw-master.owner = "2vg";
   inputs.src-mofuw-master.repo  = "mofuw";
+  inputs.src-mofuw-master.dir   = "";
   inputs.src-mofuw-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
