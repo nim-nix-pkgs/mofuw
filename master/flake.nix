@@ -13,21 +13,21 @@
   inputs.src-mofuw-master.repo  = "mofuw";
   inputs.src-mofuw-master.type  = "github";
   
-  inputs."github.com/2vg/mofuparser".owner = "nim-nix-pkgs";
-  inputs."github.com/2vg/mofuparser".ref   = "master";
-  inputs."github.com/2vg/mofuparser".repo  = "github.com/2vg/mofuparser";
-  inputs."github.com/2vg/mofuparser".dir   = "";
-  inputs."github.com/2vg/mofuparser".type  = "github";
-  inputs."github.com/2vg/mofuparser".inputs.nixpkgs.follows = "nixpkgs";
-  inputs."github.com/2vg/mofuparser".inputs.flakeNimbleLib.follows = "flakeNimbleLib";
+  inputs."github-2vg-mofuparser".owner = "nim-nix-pkgs";
+  inputs."github-2vg-mofuparser".ref   = "master";
+  inputs."github-2vg-mofuparser".repo  = "github-2vg-mofuparser";
+  inputs."github-2vg-mofuparser".dir   = "master";
+  inputs."github-2vg-mofuparser".type  = "github";
+  inputs."github-2vg-mofuparser".inputs.nixpkgs.follows = "nixpkgs";
+  inputs."github-2vg-mofuparser".inputs.flakeNimbleLib.follows = "flakeNimbleLib";
   
-  inputs."github.com/2vg/mofuhttputils".owner = "nim-nix-pkgs";
-  inputs."github.com/2vg/mofuhttputils".ref   = "master";
-  inputs."github.com/2vg/mofuhttputils".repo  = "github.com/2vg/mofuhttputils";
-  inputs."github.com/2vg/mofuhttputils".dir   = "";
-  inputs."github.com/2vg/mofuhttputils".type  = "github";
-  inputs."github.com/2vg/mofuhttputils".inputs.nixpkgs.follows = "nixpkgs";
-  inputs."github.com/2vg/mofuhttputils".inputs.flakeNimbleLib.follows = "flakeNimbleLib";
+  inputs."github-2vg-mofuhttputils".owner = "nim-nix-pkgs";
+  inputs."github-2vg-mofuhttputils".ref   = "master";
+  inputs."github-2vg-mofuhttputils".repo  = "github-2vg-mofuhttputils";
+  inputs."github-2vg-mofuhttputils".dir   = "master";
+  inputs."github-2vg-mofuhttputils".type  = "github";
+  inputs."github-2vg-mofuhttputils".inputs.nixpkgs.follows = "nixpkgs";
+  inputs."github-2vg-mofuhttputils".inputs.flakeNimbleLib.follows = "flakeNimbleLib";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
   let 
