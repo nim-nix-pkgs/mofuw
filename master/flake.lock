@@ -21,6 +21,60 @@
         "type": "github"
       }
     },
+    "github-2vg-mofuhttputils": {
+      "inputs": {
+        "flakeNimbleLib": [
+          "flakeNimbleLib"
+        ],
+        "nixpkgs": [
+          "nixpkgs"
+        ],
+        "src-mofuhttputils-master": "src-mofuhttputils-master"
+      },
+      "locked": {
+        "dir": "master",
+        "lastModified": 1648447333,
+        "narHash": "sha256-OtaE4f/+wMHXr5M98TCgQGtBWWN5NCHIo543MlCPv6A=",
+        "owner": "nim-nix-pkgs",
+        "repo": "github-2vg-mofuhttputils",
+        "rev": "7e408fc113fb18d5ef5dcf28668d77a850bce177",
+        "type": "github"
+      },
+      "original": {
+        "dir": "master",
+        "owner": "nim-nix-pkgs",
+        "ref": "master",
+        "repo": "github-2vg-mofuhttputils",
+        "type": "github"
+      }
+    },
+    "github-2vg-mofuparser": {
+      "inputs": {
+        "flakeNimbleLib": [
+          "flakeNimbleLib"
+        ],
+        "nixpkgs": [
+          "nixpkgs"
+        ],
+        "src-mofuparser-master": "src-mofuparser-master"
+      },
+      "locked": {
+        "dir": "master",
+        "lastModified": 1648447333,
+        "narHash": "sha256-yw/ggLU4WvJmHrzbfiCXF1M4+TdtLkcjTHR3PdoqIV0=",
+        "owner": "nim-nix-pkgs",
+        "repo": "github-2vg-mofuparser",
+        "rev": "a245d18410f8c7b81e5eca1eaee704021182e54f",
+        "type": "github"
+      },
+      "original": {
+        "dir": "master",
+        "owner": "nim-nix-pkgs",
+        "ref": "master",
+        "repo": "github-2vg-mofuparser",
+        "type": "github"
+      }
+    },
     "nixpkgs": {
       "locked": {
         "narHash": "sha256-sK1Ow//80EKE3bAF5d+2gB8vPXw6m5TBk3wSLHvdVe0=",
@@ -35,8 +89,44 @@
     "root": {
       "inputs": {
         "flakeNimbleLib": "flakeNimbleLib",
+        "github-2vg-mofuhttputils": "github-2vg-mofuhttputils",
+        "github-2vg-mofuparser": "github-2vg-mofuparser",
         "nixpkgs": "nixpkgs",
         "src-mofuw-master": "src-mofuw-master"
+      }
+    },
+    "src-mofuhttputils-master": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1545360468,
+        "narHash": "sha256-annYsQOdNWuGg/x3Twgi3T06dkwpP0Bw+AmHCXMlN5M=",
+        "owner": "2vg",
+        "repo": "mofuhttputils",
+        "rev": "6f9e1fa2ecf0d1e2fc040b28ee7b2e0b198fb67f",
+        "type": "github"
+      },
+      "original": {
+        "owner": "2vg",
+        "ref": "refs/heads/master",
+        "repo": "mofuhttputils",
+        "type": "github"
+      }
+    },
+    "src-mofuparser-master": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1545184507,
+        "narHash": "sha256-/++EiTA92RPT6pKgne6OvvTkAfAzLocUiklt4HxCkBI=",
+        "owner": "2vg",
+        "repo": "mofuparser",
+        "rev": "554a820040ebec1ec18c4a6986c7e92837dd1dd0",
+        "type": "github"
+      },
+      "original": {
+        "owner": "2vg",
+        "ref": "refs/heads/master",
+        "repo": "mofuparser",
+        "type": "github"
       }
     },
     "src-mofuw-master": {
