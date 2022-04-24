@@ -33,11 +33,11 @@
       },
       "locked": {
         "dir": "master",
-        "lastModified": 1648447333,
-        "narHash": "sha256-OtaE4f/+wMHXr5M98TCgQGtBWWN5NCHIo543MlCPv6A=",
+        "lastModified": 1650754272,
+        "narHash": "sha256-h8KBIseHUcOZ9A1+H9BtwbAXEPDZ8sN6IX7cq/2JfyM=",
         "owner": "nim-nix-pkgs",
         "repo": "github-2vg-mofuhttputils",
-        "rev": "7e408fc113fb18d5ef5dcf28668d77a850bce177",
+        "rev": "4744f0873b869e481fbff3e087450c3e0e4e4c72",
         "type": "github"
       },
       "original": {
@@ -60,11 +60,11 @@
       },
       "locked": {
         "dir": "master",
-        "lastModified": 1648447333,
-        "narHash": "sha256-yw/ggLU4WvJmHrzbfiCXF1M4+TdtLkcjTHR3PdoqIV0=",
+        "lastModified": 1650754272,
+        "narHash": "sha256-pW1Wh7pOYZ/cgWJeZRY3KeWI2BW1cYuIUr361XBk078=",
         "owner": "nim-nix-pkgs",
         "repo": "github-2vg-mofuparser",
-        "rev": "a245d18410f8c7b81e5eca1eaee704021182e54f",
+        "rev": "0eae809328e456d23d54320182c152cef0e4b8ab",
         "type": "github"
       },
       "original": {
