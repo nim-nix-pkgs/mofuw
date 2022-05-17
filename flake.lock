@@ -93,11 +93,11 @@
       },
       "locked": {
         "dir": "master",
-        "lastModified": 1652391247,
-        "narHash": "sha256-A1XpJbIfBw1f9RxzEiyEPmNl3ADFj4nSL+gYanQMwBY=",
+        "lastModified": 1652791655,
+        "narHash": "sha256-akhV5rW0cR5Mgiz4xG4JOr+tWsksMTPJerzhC/9SSq0=",
         "owner": "nim-nix-pkgs",
         "repo": "mofuw",
-        "rev": "315f67c4d60dffe59a3dee4a37c24db1d8e37bdb",
+        "rev": "46d1563221c96a3e6e724f321bc3a813fc82eef6",
         "type": "github"
       },
       "original": {
