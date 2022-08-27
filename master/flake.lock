@@ -33,11 +33,11 @@
       },
       "locked": {
         "dir": "master",
-        "lastModified": 1660782020,
-        "narHash": "sha256-UfCe+9Zgo7IDj49SCvoASqJa6RgK0a6iYH4IuPfgnqE=",
+        "lastModified": 1661566687,
+        "narHash": "sha256-mo+iA2tKijSV7mhToPxrR6AUAPbV/6fkY1+0Axky1b8=",
         "owner": "nim-nix-pkgs",
         "repo": "github-2vg-mofuhttputils",
-        "rev": "45cd597f7c813d203af09a448cb6f9ca9c96a4f6",
+        "rev": "e84203f8518175a59744bb188d1efdcd20f65dc8",
         "type": "github"
       },
       "original": {
